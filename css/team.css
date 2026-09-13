@@ -1,0 +1,43 @@
+.team {
+  background: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.team-item {
+  width: 264px;
+  background: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-content {
+  padding: 32px 16px;
+}
+
+.team-ill {
+  display: block;
+  width: 264px;
+  object-fit: cover;
+}
+
+.team-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-position {
+  margin: 8px 0 0;
+  font-weight: 400;
+  text-align: center;
+  color: #434455;
+}
