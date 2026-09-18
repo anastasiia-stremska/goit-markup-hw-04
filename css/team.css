@@ -41,3 +41,37 @@
   text-align: center;
   color: #434455;
 }
+
+/* Иконки социальных сетей */
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
+  margin: 16px 0 0;
+  list-style: none;
+}
+
+.social-list li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 250ms ease;
+}
+
+.social-list li:hover {
+  background: #404bbf;
+}
+
+.social-list img {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
