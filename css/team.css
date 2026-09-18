@@ -12,6 +12,10 @@
 }
 
 .team-item {
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   width: 264px;
   background: #ffffff;
   border-radius: 0 0 4px 4px;
@@ -54,11 +58,11 @@
 }
 .team .social-list svg {
   display: block;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
-.team .social-list li {
+.team .social-list a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -69,13 +73,7 @@
   transition: background-color 250ms ease;
 }
 
-.team .social-list li:hover,
-.team .social-list li:focus {
+.team .social-list a:hover,
+.team .social-list a:focus {
   background: #404bbf;
-}
-
-.team .social-list img {
-  display: block;
-  width: 16px;
-  height: 16px;
 }
