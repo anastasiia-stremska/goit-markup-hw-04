@@ -43,14 +43,19 @@
 }
 
 /* Иконки социальных сетей */
-
 .team .social-list {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 24px;
   padding: 0;
   margin: 16px 0 0;
   list-style: none;
+}
+.team .social-list svg {
+  display: block;
+  width: 16px;
+  height: 16px;
 }
 
 .team .social-list li {
