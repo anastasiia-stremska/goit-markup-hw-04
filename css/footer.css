@@ -53,7 +53,7 @@
   color: #ffffff;
 }
 
-.social-list {
+.footer .social-list {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -61,8 +61,7 @@
   margin: 0;
   list-style: none;
 }
-
-.social-list li {
+.footer .social-list li {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -72,12 +71,11 @@
   justify-content: center;
   transition: background-color 250ms ease;
 }
-
-.social-list li:hover {
+.footer .social-list li:hover {
   background: #31d0aa;
 }
 
-.social-list a {
+.footer .social-list a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +83,7 @@
   height: 100%;
 }
 
-.social-list img {
+.footer .social-list img {
   display: block;
   width: 16px;
   height: 16px;

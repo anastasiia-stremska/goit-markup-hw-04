@@ -44,7 +44,7 @@
 
 /* Иконки социальных сетей */
 
-.social-list {
+.team .social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -53,24 +53,22 @@
   list-style: none;
 }
 
-.social-list li {
+.team .social-list li {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: #4d5ae5;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   transition: background-color 250ms ease;
 }
 
-.social-list li:hover {
+.team .social-list li:hover {
   background: #404bbf;
 }
 
-.social-list img {
+.team .social-list img {
   display: block;
   width: 16px;
   height: 16px;
