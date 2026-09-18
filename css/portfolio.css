@@ -63,7 +63,8 @@
 }
 
 /* Выезд блока при наведении */
-.portfolio-image:hover .portfolio-overlay {
+.portfolio-image:hover .portfolio-overlay,
+.portfolio-image:focus .portfolio-overlay {
   transform: translateY(0);
 }
 

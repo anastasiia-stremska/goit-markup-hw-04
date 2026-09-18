@@ -71,7 +71,8 @@
   justify-content: center;
   transition: background-color 250ms ease;
 }
-.footer .social-list li:hover {
+.footer .social-list li:hover,
+.footer .social-list li:focus {
   background: #31d0aa;
 }
 
